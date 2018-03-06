@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Galerie - Duo Unwucht</title>
+    <link rel="stylesheet" type="text/css" href="/media/static/css/base.css" media="all">
+    <!--[if IE]><link rel="stylesheet" href="/media/static/css/ie.css" type="text/css" media="all"><![endif]-->
+    
+  </head>
+  <body>
+    <div id="cnt">
+      <a id="homelink" href="/"></a>
+      <div id="hd">
+        <ul class="menu level-0"><li><span>Show</span><ul class="level-1"><li><a href="/show/akrobatik/">Akrobatik</a></li><li><a href="/show/fassnummer/">Faßnummer</a></li><li><a href="/show/strassenshow/">Strassenshow</a></li><li><a href="/show/single-weel/">Single Wheel</a></li></ul></li><li><span>Schnäppchen</span><ul class="level-1"><li><a href="/schnaeppchen/kunst-handwerk/">Kunst-Handwerk</a></li><li><a href="/schnaeppchen/requisitenbau/">Requisitenbau</a></li><li><a href="/schnaeppchen/workshops/">Workshops</a></li><li><a href="/schnaeppchen/conventions/">Akrobatik Conventions</a></li></ul></li><li><a href="/referenzen/">Referenzen</a></li><li><span>Presse</span><ul class="level-1"><li><a href="/presse/kritiken/">Kritiken</a></li><li><a href="/presse/ankuendigungstexte/">Ankündigungstexte</a></li></ul></li><li><a href="/aktuelles/">Aktuelles</a></li><li><span>Vita</span><ul class="level-1"><li><a href="/vita/jasper/">Jasper</a></li><li><a href="/vita/thorsten/">Thorsten</a></li></ul></li><li class="last"><a href="/links/">Links</a></li></ul>
+      </div>
+      <div id="bd">
+        
+  <div id="bd2">
+    
+      <h1 class="title">Galerie</h1>
+    
+    
+    <p class="breadcrumbs"><span>Show</span> › <a href="/show/strassenshow/">Strassenshow</a> › <span class="current">Galerie</span></p>
+    
+    <div id="content">
+      
+
+<div id="thumbnails" class="column first">
+<ul class="thumbs">
+  
+  <li class="current">
+    <a class="thumb" href="?id=209" title="">
+      <img src="/media/thumbnails/multimedia/strassenshow/40_jpg_90x60_crop_q85.jpg" alt="">
+    </a>
+    <div class="caption">
+      <p></p>
+      <!--p><a href="/media/multimedia/strassenshow/40.jpg" target="_blank">Bild herunterladen</a></p-->
+    </div>
+  </li>
+  
+  <li >
+    <a class="thumb" href="?id=210" title="">
+      <img src="/media/thumbnails/multimedia/strassenshow/50_jpg_90x60_crop_q85.jpg" alt="">
+    </a>
+    <div class="caption">
+      <p></p>
+      <!--p><a href="/media/multimedia/strassenshow/50.jpg" target="_blank">Bild herunterladen</a></p-->
+    </div>
+  </li>
+  
+  <li >
+    <a class="thumb" href="?id=211" title="">
+      <img src="/media/thumbnails/multimedia/strassenshow/60_jpg_90x60_crop_q85.jpg" alt="">
+    </a>
+    <div class="caption">
+      <p></p>
+      <!--p><a href="/media/multimedia/strassenshow/60.jpg" target="_blank">Bild herunterladen</a></p-->
+    </div>
+  </li>
+  
+  <li >
+    <a class="thumb" href="?id=212" title="">
+      <img src="/media/thumbnails/multimedia/strassenshow/30_jpg_90x60_crop_q85.jpg" alt="">
+    </a>
+    <div class="caption">
+      <p></p>
+      <!--p><a href="/media/multimedia/strassenshow/30.jpg" target="_blank">Bild herunterladen</a></p-->
+    </div>
+  </li>
+  
+  <li >
+    <a class="thumb" href="?id=214" title="">
+      <img src="/media/thumbnails/multimedia/strassenshow/1_jpg_90x60_crop_q85.jpg" alt="">
+    </a>
+    <div class="caption">
+      <p></p>
+      <!--p><a href="/media/multimedia/strassenshow/1.jpg" target="_blank">Bild herunterladen</a></p-->
+    </div>
+  </li>
+  
+  <li >
+    <a class="thumb" href="?id=215" title="">
+      <img src="/media/thumbnails/multimedia/strassenshow/2_jpg_90x60_crop_q85.jpg" alt="">
+    </a>
+    <div class="caption">
+      <p></p>
+      <!--p><a href="/media/multimedia/strassenshow/2.jpg" target="_blank">Bild herunterladen</a></p-->
+    </div>
+  </li>
+  
+  <li >
+    <a class="thumb" href="?id=216" title="">
+      <img src="/media/thumbnails/multimedia/strassenshow/3_jpg_90x60_crop_q85.jpg" alt="">
+    </a>
+    <div class="caption">
+      <p></p>
+      <!--p><a href="/media/multimedia/strassenshow/3.jpg" target="_blank">Bild herunterladen</a></p-->
+    </div>
+  </li>
+  
+  <li >
+    <a class="thumb" href="?id=217" title="">
+      <img src="/media/thumbnails/multimedia/strassenshow/4_jpg_90x60_crop_q85.jpg" alt="">
+    </a>
+    <div class="caption">
+      <p></p>
+      <!--p><a href="/media/multimedia/strassenshow/4.jpg" target="_blank">Bild herunterladen</a></p-->
+    </div>
+  </li>
+  
+</ul>
+
+</div>
+<div class="column">
+  <div id="image"><img src="/media/thumbnails/multimedia/strassenshow/40_jpg_510x380_q85.jpg" alt=""></div>
+  <div id="caption"><p></p></div>
+</div>
+<script type="text/javascript">
+var files = ["/media/thumbnails/multimedia/strassenshow/40_jpg_510x380_q85.jpg","/media/thumbnails/multimedia/strassenshow/50_jpg_510x380_q85.jpg","/media/thumbnails/multimedia/strassenshow/60_jpg_510x380_q85.jpg","/media/thumbnails/multimedia/strassenshow/30_jpg_510x380_q85.jpg","/media/thumbnails/multimedia/strassenshow/1_jpg_510x380_q85.jpg","/media/thumbnails/multimedia/strassenshow/2_jpg_510x380_q85.jpg","/media/thumbnails/multimedia/strassenshow/3_jpg_510x380_q85.jpg","/media/thumbnails/multimedia/strassenshow/4_jpg_510x380_q85.jpg"]
+</script>
+<p><a href="/show/strassenshow/technische-voraussetzungen/">&gt; Technische Voraussetzungen</a></p>
+
+    </div>
+  </div>
+
+      </div>
+      <div id="ft">
+        <ul class="menu bottom-menu">
+          <li><a href="/kontakt/">Kontakt</a></li>
+          <li class="last"><a href="/impressum/">Impressum</a></li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/media/static/js/page.js"></script>
+    
+<script type="text/javascript" src="/media/static/js/jquery.galleriffic.min.js"></script>
+<script type="text/javascript" src="/media/static/js/gallery.js"></script>
+
+    <script type="text/javascript">
+    $.ajax({
+      type: 'GET',
+      url: 'http://www.google-analytics.com/ga.js',
+      success: function() {
+        var pageTracker = _gat._getTracker('UA-7428198-1');
+        pageTracker._trackPageview();
+      },
+      dataType: 'script',
+      cache: true
+    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{color:#000;background-color:#fff;text-decoration:none;margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{line-height:1;font-size:10px;font-family:Verdana,Arial,sans;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+/* screen */
+body {background:url(../img/bg.png) repeat;}
+#cnt {width:933px; margin:0 auto;background:url(../img/bg_outside.png) no-repeat;}
+#hd {padding:85px 0 15px 20px;}
+#bd {padding:20px 0 0 47px;background:url(../img/bg_inside.jpg) no-repeat 28px 2px;height:533px;width:905px;clear:left;}
+#ft {margin-left:30px;height:99px;}
+#bd2 {height:490px;width:840px;background-color:#fff;overflow:hidden;border-bottom:10px solid #d30045;}
+#content {margin-top:40px;height:413px;overflow:auto;padding:0 15px;font-size:12px;line-height:20px;}
+.column {width:500px;float:left;}
+.column.first {width:275px;margin-right:10px;clear:left;}
+
+#homelink {display:block;float:right;width:300px;height:70px;position:relative;}
+#changepic {display:block;float:left;width:100px;height:70px;position:relative;}
+
+em,strong,span,p,h1,h2,li {color:#666;}
+a:link,a:hover,a:visited {color:#D30045;}
+a:hover {text-decoration:underline;}
+p {margin-bottom:1em;}
+
+h1.title {padding-left:15px;text-transform:uppercase;color:#fff;background-color:#d30045;line-height:20px;font-size:14px;font-weight:bolder;}
+p.breadcrumbs {margin:0 0 5px 15px;font-size:12px;line-height:18px;}
+p.breadcrumbs a {color:#D30045;}
+p.breadcrumbs span.current {font-weight:bold;}
+
+/* menu, son of suckerfish: http://www.htmldog.com/articles/suckerfish/dropdowns/ */
+.menu a, .menu span { display:block;color:#fff;font-weight:bolder;font-size:12px;text-transform:uppercase;padding:0 10px;text-decoration:none;}
+.menu li { float:left;margin:0;padding:0;position:relative;z-index:1000;}
+.menu > li { border-right:2px solid #fff; }
+.menu > li.last { border:none; }
+
+.menu ul li {padding:5px 0;}
+.menu ul li.parent{background:url(../img/rightarrow.gif) center right no-repeat;}
+.menu ul li.parent:hover,.menu ul li.parent.sfhover{background-image:url(../img/rightarrow_light.gif);}
+.menu li ul {position:absolute;left:-999em;height:auto;width:18.4em;w\idth:17.9em;font-weight:normal;margin:0;background-color:#007199;}
+.menu li li {padding-right:1em;width:17em;}
+.menu li ul a, .menu li ul span {width:17em;w\idth:13em;}
+.menu li ul ul {margin:-1.7em 0 0 17.9em;}
+
+ul.level-1 { padding-top:5px; }
+.menu li:hover ul ul, .menu li:hover ul ul ul, .menu li:hover ul ul ul ul, .menu li.sfhover ul ul, .menu li.sfhover ul ul ul, .menu li.sfhover ul ul ul ul {left: -999em;}
+.menu li:hover ul, .menu li li:hover ul, .menu li li li:hover ul, .menu li li li li:hover ul, .menu li.sfhover ul, .menu li li.sfhover ul, .menu li li li.sfhover ul, .menu li li li li.sfhover ul {left: auto;}
+.menu li:hover > a, .menu li.sfhover > a {color:#b1c7df;}
+
+/* basics */
+h1 {font-size:14px;}
+h1,h2 {font-weight:bold;}
+h2 {margin-bottom:10px;}
+li {margin-bottom:7px;}
+
+/* WYMeditor */
+/* Absatz: kein Abstand */
+.nomarg /* p */ {
+  margin-bottom:0;
+  /* margin-bottom:0; */
+}
+/* Absatz: Zitat */
+.quote /* p */ {
+  font-style:italic;
+  /* font-style:italic; */
+}
+/* Liste: mit Punkten */
+.bulleted /* ul */ {
+  list-style:disc outside;
+  margin-left:1.5em;
+  /* list-style:disc outside;margin-left:1.5em; */
+}
+/* Liste: Galerie */
+.gallery /* ul */ {
+  
+  /* background-color:red; */
+}
+/* /WYMeditor */
+
+/* Gallery */
+div.content {display:none;float:right;width:550px;}
+div.content a, div.navigation a {text-decoration:none;color: #777;}
+div.content a:focus, div.content a:hover, div.content a:active {text-decoration:underline;}
+div.controls {margin-top:5px;height:23px;}
+div.controls a {padding:5px;}
+div.ss-controls {float:left;}
+div.nav-controls {float:right;}
+div.loader {background-image:url('loader.gif');background-repeat:no-repeat;background-position:center;width:550px;height:350px}
+div.slideshow {clear:both;}
+div.slideshow span.image-wrapper {float:left;padding-bottom:12px;}
+div.slideshow a.advance-link {padding:2px;display:block;border:1px solid #ccc;}
+div.slideshow img {border: none;display: block;}
+div.download {float: right;}
+div.embox {	clear: both;border:1px solid #ccc;background-color:#eee;padding:12px;}
+div.image-title {font-weight: bold;	font-size: 1.4em;}
+div.image-desc {line-height: 1.3em;	padding-top: 12px;}
+ul.thumbs {clear:both;margin:0;padding:0;}
+ul.thumbs li {float:left;padding:0;margin:0 1px 1px 0;list-style:none;}
+a.thumb {display:block;}
+ul.thumbs li.selected a.thumb {background:#000;}
+a.thumb:focus {	outline: none;}
+ul.thumbs img {border:none;display:block;}
+.thumbs .caption {display:none;}
+.caption p {margin-bottom:0;}
+div.pagination {clear:both;}
+div.navigation div.top {margin-bottom:12px;height:11px;}
+div.navigation div.bottom {margin-top:12px;}
+div.pagination a, div.pagination span.current {display:block;float:left;margin-right:2px;padding:4px 7px 2px 7px;}
+div.pagination a:hover {text-decoration:underline;}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Duo Unwucht</title>
+    <link rel="stylesheet" type="text/css" href="/media/static/css/base.css" media="all">
+    <!--[if IE]><link rel="stylesheet" href="/media/static/css/ie.css" type="text/css" media="all"><![endif]-->
+    
+<style type="text/css">
+
+  #bd {background-image:
+  
+  url(/media/static/img/schaf.jpg)
+  
+  };
+
+</style>
+
+  </head>
+  <body>
+    <div id="cnt">
+      <a id="homelink" href="/"></a>
+      <div id="hd">
+        <ul class="menu level-0"><li><span>Show</span><ul class="level-1"><li><a href="/show/akrobatik/">Akrobatik</a></li><li><a href="/show/fassnummer/">Faßnummer</a></li><li><a href="/show/strassenshow/">Strassenshow</a></li><li><a href="/show/single-weel/">Single Wheel</a></li></ul></li><li><span>Schnäppchen</span><ul class="level-1"><li><a href="/schnaeppchen/kunst-handwerk/">Kunst-Handwerk</a></li><li><a href="/schnaeppchen/requisitenbau/">Requisitenbau</a></li><li><a href="/schnaeppchen/workshops/">Workshops</a></li><li><a href="/schnaeppchen/conventions/">Akrobatik Conventions</a></li></ul></li><li><a href="/referenzen/">Referenzen</a></li><li><span>Presse</span><ul class="level-1"><li><a href="/presse/kritiken/">Kritiken</a></li><li><a href="/presse/ankuendigungstexte/">Ankündigungstexte</a></li></ul></li><li><a href="/aktuelles/">Aktuelles</a></li><li><span>Vita</span><ul class="level-1"><li><a href="/vita/jasper/">Jasper</a></li><li><a href="/vita/thorsten/">Thorsten</a></li></ul></li><li class="last"><a href="/links/">Links</a></li></ul>
+      </div>
+      <div id="bd">
+        
+      </div>
+      <div id="ft">
+        <ul class="menu bottom-menu">
+          <li><a href="/kontakt/">Kontakt</a></li>
+          <li class="last"><a href="/impressum/">Impressum</a></li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/media/static/js/page.js"></script>
+    
+<script type="text/javascript">
+var background_image = ['bg_inside.jpg','schaf.jpg','fisch.jpg'];
+var background_counter = 0;
+
+$(function() {
+  //preload images
+  for(var i=0; i<background_image.length; i++) {
+    $("<img>").attr("src", '/media/static/img/'+background_image[i]);
+  }
+  background_counter = Math.floor(Math.random()*background_image.length);
+  setInterval(set_bg, 5000);
+});
+function set_bg() {
+  $('#bd').css('background-image', 'url(/media/static/img/'+background_image[background_counter]+')');
+  if (++background_counter==background_image.length) {
+    background_counter = 0;
+  }
+}
+</script>
+
+    <script type="text/javascript">
+    $.ajax({
+      type: 'GET',
+      url: 'http://www.google-analytics.com/ga.js',
+      success: function() {
+        var pageTracker = _gat._getTracker('UA-7428198-1');
+        pageTracker._trackPageview();
+      },
+      dataType: 'script',
+      cache: true
+    });
+    </script>
+  </body>
+</html>
